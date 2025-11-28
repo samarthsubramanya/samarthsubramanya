@@ -12,8 +12,8 @@
 - ✌️ I am @JohnX4321 a.k.a Samarth. 
 
 - 🚀 I have worked on Android Phones, Android VR Headsets, Wear OS, Android PoS, Android Dashboards on Electric Vehicles including Play Store Apps and System Apps as well
-- 
-- 👀 I’m interested in Coding, Drawing, Quiz
+
+- 👀 I’m interested in Coding, Drawing, Travelling.
   
 - 🌱 Working on Innovative Projects
   
