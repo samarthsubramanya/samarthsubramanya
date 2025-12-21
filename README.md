@@ -9,15 +9,15 @@
 </div>
 
 
-- ✌️ I am @JohnX4321 a.k.a Samarth. 
+-  I am @JohnX4321 a.k.a Samarth. 
 
-- 🚀 I have worked on Android Phones, Android VR Headsets, Wear OS, Android PoS, Android Dashboards on Electric Vehicles including Play Store Apps and System Apps as well
+-  I have worked on Android Phones, Android VR Headsets, Wear OS, Android PoS, Android Dashboards on Electric Vehicles including Play Store Apps and System Apps as well
 
-- 👀 I’m interested in Coding, Drawing, Travelling.
+-  I’m interested in Coding, Drawing, Travelling.
   
-- 🌱 Working on Innovative Projects
+-  Working on Innovative Projects
   
-- 💞️ I’m looking to collaborate on anything
+-  I’m looking to collaborate on anything
 
 
 <div align="center"><h2> Technical Skills 💻 </h2>
@@ -49,6 +49,8 @@
 </div>
 
 <p align='center'><img src='https://visitor-badge.laobi.icu/badge?page_id=johnx4321'></p>
+
+<p>Profile Picture - My profile picture is an Airbus A350 because it revolutionized air travel, with a unique design, composite materials and efficient.</p>
 
 <!---
 JohnX4321/JohnX4321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
