@@ -44,7 +44,7 @@
 
 <h2>Most Used Language</h2>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=johnx4321&theme=midnight-purple&langs_count=5&text_color=BD632F)
+![Top Langs](https://github-readme-stats.vercel.app/api?username=samarthsubramanya&show_icons=true)
 
 </div>
 
