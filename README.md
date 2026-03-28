@@ -3,7 +3,7 @@
 <div align="center">
 <h3>Let's Connect</h3>
 
-[![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]() 
+<!--[![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]() -->
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samarth-agasthya-m-s/) 
 [![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johnx4321gaming@gmail.com)
 </div>
@@ -11,9 +11,9 @@
 
 -  I am @JohnX4321 a.k.a Samarth. 
 
--  I have worked on Android Phones, Android VR Headsets, Wear OS, Android PoS, Android Dashboards on Electric Vehicles including Play Store Apps and System Apps as well
+-  I have worked on Smarth Phones, Custom Electronics Devices (Location Trackers, Kiosks),  VR Headsets, Wear OS, Android PoS Billing Systems, HMI Dashboards on Electric Vehicles,  Play Store Apps and System Apps for OEM's as well
 
--  I’m interested in Coding, Drawing, Travelling.
+-  Hobbies include Drawing and Travelling.
   
 -  Working on Innovative Projects
   
@@ -50,7 +50,7 @@
 
 <p align='center'><img src='https://visitor-badge.laobi.icu/badge?page_id=johnx4321'></p>
 
-<p>Profile Picture - My profile picture is an Airbus A350 because it revolutionized air travel, with a unique design, composite materials and efficient.</p>
+<p>Profile Picture - My profile picture is an Airbus A350 because it revolutionized air travel, with a unique design, composite materials and efficient transportation.</p>
 
 <!---
 JohnX4321/JohnX4321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
