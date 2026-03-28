@@ -42,9 +42,9 @@
 
 ![YOUR NAME Github Stats](https://github-readme-stats.vercel.app/api?username=johnx4321&show_icons=true&theme=midnight-purple&text_color=BD632F)  -->
 
-<h2>Most Used Language</h2>
+<h2>Stats</h2>
 
-![Top Langs](https://github-readme-stats.vercel.app/api?username=samarthsubramanya&show_icons=true)
+![Stats](./profile/stats.svg)
 
 </div>
 
