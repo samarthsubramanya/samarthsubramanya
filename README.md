@@ -11,7 +11,7 @@
 
 -  I am @JohnX4321 a.k.a Samarth. 
 
--  I have worked on Smarth Phones, Custom Electronics Devices (Location Trackers, Kiosks),  VR Headsets, Wear OS, Android PoS Billing Systems, HMI Dashboards on Electric Vehicles,  Play Store Apps and System Apps for OEM's as well
+-  I have worked on Smarth Phones, Custom Electronics Devices (Location Trackers, Kiosks),  VR Headsets, Wear OS, Android PoS Billing Systems, HMI Dashboards on Electric Vehicles,  Play Store Apps[...]
 
 -  Hobbies include Drawing and Travelling.
   
@@ -52,16 +52,6 @@
 
 </div>
 
-<!--<div align='center'><h2>GitHub Stats 📈</h2>
-
-![YOUR NAME Github Stats](https://github-readme-stats.vercel.app/api?username=johnx4321&show_icons=true&theme=midnight-purple&text_color=BD632F)  -->
-
-<h2>Stats</h2>
-
-![Stats](./profile/stats.svg)
-
-</div>
-
 <p align='center'><img src='https://visitor-badge.laobi.icu/badge?page_id=johnx4321'></p>
 
 <p>Profile Picture - My profile picture is an Airbus A350 because it revolutionized air travel, with a unique design, composite materials and efficient transportation.</p>
@@ -69,4 +59,4 @@
 <!---
 JohnX4321/JohnX4321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->
+-->
