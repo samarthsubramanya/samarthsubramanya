@@ -3,60 +3,92 @@
 </div>
 
 <div align="center">
-<h3>Let's Connect</h3>
 
-<!--[![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]() -->
-[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samarth-agasthya-m-s/) 
-[![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johnx4321gaming@gmail.com)
-</div>
+## ✈️ Mobile Engineer · AI Builder · Hardware Explorer
 
+Building useful software across **Android, AI, cloud, and connected devices**.
 
--  I am @JohnX4321 a.k.a Samarth. 
-
--  I have worked on Smarth Phones, Custom Electronics Devices (Location Trackers, Kiosks),  VR Headsets, Wear OS, Android PoS Billing Systems, HMI Dashboards on Electric Vehicles,  Play Store Apps[...]
-
--  Hobbies include Drawing and Travelling.
-  
--  Working on Innovative Projects
-  
--  I’m looking to collaborate on anything
-
-
-<div align="center"><h2> Technical Skills 💻 </h2>
-
-[![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](#)
-[![iOS](https://img.shields.io/badge/iOS-000000?&logo=apple&logoColor=white)](#)
-[![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)](#)
-[![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white)](#)
-[![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white)](#)
-![JavaScript](https://img.shields.io/badge/javascript-ffff00.svg?style=for-the-badge&logo=javascript&logoColor=000000) 
-![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](#) 
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?logo=openai&logoColor=white)](#)
-[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)](#)
-[![Mistral AI](https://img.shields.io/badge/Mistral%20AI-FA520F?logo=mistral-ai&logoColor=fff)](#)
-[![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#)
-[![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#)
-[![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?logo=dart&logoColor=white)](#)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=fff)](#)
-[![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white)](#)
-[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white)](#)
-[![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white)](#)
-[![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=fff)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
-[![ARKit](https://img.shields.io/badge/ARKit-%23000000.svg?logo=apple&logoColor=white)](#)
-[![Google Cardboard](https://img.shields.io/badge/Google%20Cardboard-%23FF713B.svg?logo=google-cardboard&logoColor=white)](#)
-[![Oculus](https://img.shields.io/badge/Oculus-%231A1A1A.svg?logo=oculus&logoColor=white)](#)
-
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samarth-agasthya-m-s/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://samarthagasthya.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johnx4321gaming@gmail.com)
 
 </div>
 
-<p align='center'><img src='https://visitor-badge.laobi.icu/badge?page_id=johnx4321'></p>
+---
 
-<p>Profile Picture - My profile picture is an Airbus A350 because it revolutionized air travel, with a unique design, composite materials and efficient transportation.</p>
+## 🧭 Flight Plan
+
+- 📱 Designing mobile experiences with Android, Kotlin, and Flutter
+- 🤖 Building practical AI tools and intelligent applications
+- ☁️ Exploring serverless architectures and cloud-native systems
+- 🔧 Working with hardware, connected devices, and developer tools
+- 🚀 Turning ambitious ideas into useful products
+
+> **Mission:** Build technology that feels as thoughtful, reliable, and efficient as a well-engineered aircraft.
+
+## 🛫 Featured Projects
+
+| Project | Mission | Stack |
+|---|---|---|
+| [**Beam**](https://github.com/samarthsubramanya/Beam) | Kotlin application project | Kotlin |
+| [**ADBDesk**](https://github.com/samarthsubramanya/ADBDesk) | Desktop tooling for Android devices | Kotlin |
+| [**SnipURL**](https://github.com/samarthsubramanya/SnipURL) | Lightweight serverless URL shortener | Python · AWS Lambda |
+| [**Portfolio**](https://samarthagasthya.vercel.app/) | Personal portfolio and project showcase | TypeScript |
+
+## 🧰 Aircraft Systems — Technical Skills
+
+### Mobile & Frontend
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+### Backend, Cloud & Systems
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+### AI & Emerging Tech
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?style=flat-square&logo=googlegemini&logoColor=white)
+![Mistral AI](https://img.shields.io/badge/Mistral%20AI-FA520F?style=flat-square&logo=mistral&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+
+## 📡 Current Transmission
+
+> Currently building innovative projects and looking to collaborate with people who enjoy solving difficult problems.
+
+If you’re working on **mobile apps, AI products, developer tools, or hardware-integrated experiences**, let’s connect.
+
+## 🌍 Beyond the Runway
+
+When I’m not building software, you’ll probably find me:
+
+- ✏️ Drawing
+- 🌍 Travelling
+- ✈️ Reading about aviation and aircraft design
+- 🧪 Experimenting with new technologies
+
+<div align="center">
+
+### Thanks for stopping by ✨
+
+<p>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=samarthsubramanya" alt="Profile visitors">
+</p>
+
+<p>My profile picture is an Airbus A350, inspired by its distinctive design, composite materials, and efficient engineering.</p>
+
+</div>
 
 <!---
 JohnX4321/JohnX4321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
