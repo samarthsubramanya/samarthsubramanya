@@ -1,4 +1,6 @@
-<div align="center"> <h1> Hey There! </h1> </div>
+<div align="center">
+  <img src="./profile/aviation-header.svg" alt="Aviation-themed banner introducing Samarth as a mobile engineer, AI builder, and hardware explorer" width="100%">
+</div>
 
 <div align="center">
 <h3>Let's Connect</h3>
