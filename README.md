@@ -18,24 +18,42 @@ Building useful software across **Android, AI, cloud, and connected devices**.
 
 ## 🧭 Flight Plan
 
-- 📱 Designing mobile experiences with Android, Kotlin, and Flutter
-- 🤖 Building practical AI tools and intelligent applications
-- ☁️ Exploring serverless architectures and cloud-native systems
-- 🔧 Working with hardware, connected devices, and developer tools
-- 🚀 Turning ambitious ideas into useful products
+```
+DEP  MOBILE      ──  Android · Kotlin · Flutter
+VIA  AI          ──  practical tools, intelligent apps
+VIA  CLOUD       ──  serverless, cloud-native systems
+VIA  HARDWARE    ──  connected devices, developer tools
+ARR  PRODUCT     ──  ambitious ideas → useful software
+```
 
 > **Mission:** Build technology that feels as thoughtful, reliable, and efficient as a well-engineered aircraft.
 
-## 🛫 Featured Projects
+## 🛫 Featured Routes
 
-| Project | Mission | Stack |
+| Flight | Destination | Equipment |
 |---|---|---|
 | [**Beam**](https://github.com/samarthsubramanya/Beam) | Kotlin application project | Kotlin |
 | [**ADBDesk**](https://github.com/samarthsubramanya/ADBDesk) | Desktop tooling for Android devices | Kotlin |
 | [**SnipURL**](https://github.com/samarthsubramanya/SnipURL) | Lightweight serverless URL shortener | Python · AWS Lambda |
 | [**Portfolio**](https://samarthagasthya.vercel.app/) | Personal portfolio and project showcase | TypeScript |
 
-## 🧰 Aircraft Systems — Technical Skills
+## 🕹️ Pixel Cockpit — Fly the README
+
+Everyone visiting shares one aircraft. Pick a control, submit the pre-filled issue, and a GitHub Action moves the plane one column and redraws the board. Thread the gaps in the walls. Hit one and the flight restarts, but your score goes on the board if it's the best.
+
+<div align="center">
+
+<img src="./game/board.svg" alt="Pixel Flight game board" width="512">
+
+[![Climb](https://img.shields.io/badge/⬆_Climb-59d9ff?style=for-the-badge)](https://github.com/samarthsubramanya/samarthsubramanya/issues/new?title=fly%3A+up&body=Just+press+Submit+to+climb.)
+[![Hold](https://img.shields.io/badge/➡_Hold-ffc857?style=for-the-badge)](https://github.com/samarthsubramanya/samarthsubramanya/issues/new?title=fly%3A+hold&body=Just+press+Submit+to+hold+altitude.)
+[![Descend](https://img.shields.io/badge/⬇_Descend-59d9ff?style=for-the-badge)](https://github.com/samarthsubramanya/samarthsubramanya/issues/new?title=fly%3A+down&body=Just+press+Submit+to+descend.)
+
+<sub>The board updates about a minute after the issue is submitted. Refresh to see the new position.</sub>
+
+</div>
+
+## 🧰 Aircraft Systems
 
 ### Mobile & Frontend
 
@@ -63,15 +81,20 @@ Building useful software across **Android, AI, cloud, and connected devices**.
 ![Mistral AI](https://img.shields.io/badge/Mistral%20AI-FA520F?style=flat-square&logo=mistral&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
-## 📡 Current Transmission
+## 📊 Flight Data Recorder
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=samarthsubramanya&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b2942&title_color=ffc857&icon_color=59d9ff&text_color=c9eaf4" alt="GitHub stats" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samarthsubramanya&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b2942&title_color=ffc857&text_color=c9eaf4" alt="Top languages" height="165">
+</div>
+
+## 📡 Comms
 
 > Currently building innovative projects and looking to collaborate with people who enjoy solving difficult problems.
 
 If you’re working on **mobile apps, AI products, developer tools, or hardware-integrated experiences**, let’s connect.
 
 ## 🌍 Beyond the Runway
-
-When I’m not building software, you’ll probably find me:
 
 - ✏️ Drawing
 - 🌍 Travelling
@@ -80,17 +103,10 @@ When I’m not building software, you’ll probably find me:
 
 <div align="center">
 
-### Thanks for stopping by ✨
+### Thanks for flying ✨
 
-<p>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=samarthsubramanya" alt="Profile visitors">
-</p>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=samarthsubramanya" alt="Profile visitors">
 
 <p>My profile picture is an Airbus A350, inspired by its distinctive design, composite materials, and efficient engineering.</p>
 
 </div>
-
-<!---
-JohnX4321/JohnX4321 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
--->

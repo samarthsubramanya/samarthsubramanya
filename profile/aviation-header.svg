@@ -1,47 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Samarth aviation-themed profile header</title>
-  <desc id="desc">A navy flight deck inspired banner with a stylized aircraft, runway lines, navigation grid, and the text Mobile Engineer, AI Builder, Hardware Explorer.</desc>
+  <desc id="desc">A navy flight deck banner with an A350-style airliner in flight, a compass rose, and the text Mobile Engineer, AI Builder, Hardware Explorer.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#071426"/>
       <stop offset="0.55" stop-color="#0b2942"/>
       <stop offset="1" stop-color="#123d59"/>
     </linearGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#e6eef3"/>
+      <stop offset="1" stop-color="#b9cdd8"/>
+    </linearGradient>
     <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#59d9ff" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#59d9ff" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#59d9ff" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
+    </linearGradient>
     <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000" flood-opacity="0.4"/>
     </filter>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#8edfff" stroke-opacity="0.09"/>
     </pattern>
+    <style>
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-7px) } }
+      @keyframes sweep { to { transform: rotate(360deg) } }
+      @keyframes dash { to { stroke-dashoffset: -60 } }
+      .plane { animation: float 6s ease-in-out infinite }
+      .sweep { transform-origin: 1090px 72px; animation: sweep 8s linear infinite }
+      .route { stroke-dasharray: 10 14; animation: dash 3s linear infinite }
+    </style>
   </defs>
 
   <rect width="1200" height="320" rx="24" fill="url(#sky)"/>
   <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <path d="M0 258 C240 214 420 276 620 238 S980 194 1200 228" fill="none" stroke="#59d9ff" stroke-opacity="0.18" stroke-width="2"/>
-  <path d="M0 273 C240 229 420 291 620 253 S980 209 1200 243" fill="none" stroke="#59d9ff" stroke-opacity="0.1" stroke-width="1"/>
 
-  <g opacity="0.75" fill="none" stroke="#ffc857" stroke-width="2">
-    <circle cx="1030" cy="72" r="34"/>
-    <path d="M1030 26V118M984 72H1076"/>
-    <path d="M1007 49L1053 95M1053 49L1007 95" opacity="0.5"/>
+  <!-- route lines -->
+  <path class="route" d="M0 262 C240 218 420 280 620 242 S980 198 1200 232" fill="none" stroke="#59d9ff" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M0 277 C240 233 420 295 620 257 S980 213 1200 247" fill="none" stroke="#59d9ff" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- compass -->
+  <g fill="none" stroke="#ffc857" stroke-width="2" opacity="0.8">
+    <circle cx="1090" cy="72" r="34"/>
+    <path d="M1090 30V114M1048 72H1132" opacity="0.5"/>
+    <path class="sweep" d="M1090 72L1090 40" stroke-width="3" stroke-linecap="round"/>
   </g>
-  <text x="1030" y="78" text-anchor="middle" fill="#ffc857" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">FLIGHT</text>
+  <text x="1090" y="126" text-anchor="middle" fill="#ffc857" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="2">HDG 090</text>
 
-  <g transform="translate(785 188) rotate(-12)" filter="url(#shadow)">
-    <path d="M-270 16 L-68 5 L18 -11 L244 -5 L270 5 L244 15 L18 17 L-68 7 Z" fill="#f4f8fb"/>
-    <path d="M-20 4 L42 -92 L70 -96 L51 2 Z" fill="#d7e8ef"/>
-    <path d="M-15 14 L42 88 L70 92 L51 16 Z" fill="#d7e8ef"/>
-    <path d="M-210 9 L-255 67 L-270 66 L-240 4 Z" fill="#b6d2dc"/>
-    <path d="M-210 5 L-255 -47 L-270 -46 L-240 10 Z" fill="#b6d2dc"/>
-    <path d="M-68 4 L20 3" stroke="#59d9ff" stroke-width="7" stroke-linecap="round"/>
-    <circle cx="116" cy="4" r="15" fill="#123d59"/>
-    <circle cx="116" cy="4" r="8" fill="#59d9ff"/>
-    <path d="M238 -4 L270 5 L238 14 Z" fill="#ffc857"/>
+  <!-- contrail -->
+  <rect x="520" y="182" width="150" height="4" rx="2" fill="url(#trail)"/>
+  <rect x="560" y="194" width="110" height="3" rx="2" fill="url(#trail)"/>
+
+  <!-- aircraft: side profile, nose right -->
+  <g class="plane">
+  <g transform="translate(868 164) rotate(-5) scale(0.55)" filter="url(#shadow)">
+    <!-- far horizontal stabilizer -->
+    <path d="M-262 -18 L-340 -66 L-392 -66 L-318 -18 Z" fill="#9fb8c4"/>
+    <!-- vertical stabilizer -->
+    <path d="M-228 -30 L-352 -168 L-406 -168 L-322 -30 Z" fill="#d7e8ef"/>
+    <path d="M-352 -168 L-406 -168 L-380 -138 L-335 -138 Z" fill="#59d9ff"/>
+    <!-- fuselage -->
+    <path d="M-392 -6 C-330 -30 -240 -40 -120 -40 L290 -40 C350 -40 386 -22 400 0 C386 22 350 40 290 40 L-40 40 C-200 40 -330 30 -392 8 Z" fill="url(#hull)"/>
+    <!-- belly line -->
+    <path d="M-330 22 L280 22" stroke="#59d9ff" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+    <!-- windows -->
+    <path d="M-150 -14 L250 -14" stroke="#123d59" stroke-width="7" stroke-dasharray="7 9" stroke-linecap="round"/>
+    <!-- cockpit -->
+    <path d="M330 -30 L372 -30 C384 -24 392 -14 398 -4 L352 -4 Z" fill="#123d59"/>
+    <path d="M346 -26 L372 -26 C382 -20 388 -12 392 -8 L358 -8 Z" fill="#59d9ff" opacity="0.6"/>
+    <!-- near wing -->
+    <path d="M60 10 L-186 158 L-236 158 L-72 10 Z" fill="#dfe9ee"/>
+    <path d="M-186 158 L-236 158 L-244 152 L-236 140 Z" fill="#59d9ff"/>
+    <!-- engine -->
+    <path d="M-36 66 L-8 66 L-8 92 L-36 92 Z" fill="#b9cdd8"/>
+    <rect x="-70" y="82" width="120" height="52" rx="24" fill="#e6eef3"/>
+    <rect x="-70" y="82" width="120" height="52" rx="24" fill="none" stroke="#9fb8c4" stroke-width="2"/>
+    <ellipse cx="-58" cy="108" rx="10" ry="24" fill="#123d59"/>
+    <ellipse cx="-58" cy="108" rx="5" ry="12" fill="#59d9ff"/>
+    <!-- near horizontal stabilizer -->
+    <path d="M-250 14 L-334 70 L-386 70 L-310 14 Z" fill="#c9d9e1"/>
+    <!-- tail cone -->
+    <path d="M-392 -6 C-400 -2 -400 4 -392 8 Z" fill="#ffc857"/>
+  </g>
   </g>
 
   <g fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
