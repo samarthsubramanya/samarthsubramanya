@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Animated airliner taking off, cruising, and landing on a loop">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#123d59"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#e6eef3"/>
+      <stop offset="1" stop-color="#b9cdd8"/>
+    </linearGradient>
+    <symbol id="plane" viewBox="-410 -175 820 350" overflow="visible">
+      <path d="M-262 -18 L-340 -66 L-392 -66 L-318 -18 Z" fill="#9fb8c4"/>
+      <path d="M-228 -30 L-352 -168 L-406 -168 L-322 -30 Z" fill="#d7e8ef"/>
+      <path d="M-352 -168 L-406 -168 L-380 -138 L-335 -138 Z" fill="#59d9ff"/>
+      <path d="M-392 -6 C-330 -30 -240 -40 -120 -40 L290 -40 C350 -40 386 -22 400 0 C386 22 350 40 290 40 L-40 40 C-200 40 -330 30 -392 8 Z" fill="url(#hull)"/>
+      <path d="M-330 22 L280 22" stroke="#59d9ff" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-150 -14 L250 -14" stroke="#123d59" stroke-width="7" stroke-dasharray="7 9" stroke-linecap="round"/>
+      <path d="M330 -30 L372 -30 C384 -24 392 -14 398 -4 L352 -4 Z" fill="#123d59"/>
+      <path d="M60 10 L-186 158 L-236 158 L-72 10 Z" fill="#dfe9ee"/>
+      <path d="M-186 158 L-236 158 L-244 152 L-236 140 Z" fill="#59d9ff"/>
+      <path d="M-36 66 L-8 66 L-8 92 L-36 92 Z" fill="#b9cdd8"/>
+      <rect x="-70" y="82" width="120" height="52" rx="24" fill="#e6eef3" stroke="#9fb8c4" stroke-width="2"/>
+      <ellipse cx="-58" cy="108" rx="10" ry="24" fill="#123d59"/>
+      <path d="M-250 14 L-334 70 L-386 70 L-310 14 Z" fill="#c9d9e1"/>
+    </symbol>
+    <style>
+      /* 16s loop: taxi 0-15%, rotate/climb 15-40%, cruise 40-60%, descend 60-85%, rollout 85-100% */
+      @keyframes fly {
+        0%   { transform: translate(-260px, 196px) rotate(0deg) }
+        15%  { transform: translate(120px, 196px) rotate(0deg) }
+        25%  { transform: translate(300px, 150px) rotate(-14deg) }
+        40%  { transform: translate(520px, 100px) rotate(-6deg) }
+        60%  { transform: translate(760px, 92px) rotate(0deg) }
+        75%  { transform: translate(940px, 130px) rotate(5deg) }
+        85%  { transform: translate(1080px, 194px) rotate(-3deg) }
+        90%  { transform: translate(1160px, 196px) rotate(0deg) }
+        100% { transform: translate(1460px, 196px) rotate(0deg) }
+      }
+      @keyframes lights { 50% { opacity: 0.15 } }
+      @keyframes strobe { 0%,92% { opacity: 0 } 95%,100% { opacity: 1 } }
+      @keyframes cloud { to { transform: translateX(-1400px) } }
+      .plane { animation: fly 16s cubic-bezier(.45,0,.55,1) infinite }
+      .rwy { animation: lights 1.2s steps(2) infinite }
+      .beacon { animation: strobe 1.4s infinite }
+      .cloud { animation: cloud 40s linear infinite }
+      .cloud.b { animation-duration: 55s; animation-delay: -20s }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="24" fill="url(#sky)"/>
+
+  <!-- clouds -->
+  <g fill="#8edfff" opacity="0.12">
+    <g class="cloud"><ellipse cx="300" cy="70" rx="70" ry="16"/><ellipse cx="900" cy="45" rx="90" ry="18"/><ellipse cx="1500" cy="80" rx="60" ry="14"/><ellipse cx="2100" cy="50" rx="80" ry="16"/></g>
+    <g class="cloud b"><ellipse cx="600" cy="110" rx="50" ry="10"/><ellipse cx="1300" cy="95" rx="70" ry="12"/><ellipse cx="2000" cy="115" rx="55" ry="10"/></g>
+  </g>
+
+  <!-- runway -->
+  <rect y="228" width="1200" height="32" fill="#0a1a2b"/>
+  <rect y="226" width="1200" height="2" fill="#2a4a63"/>
+  <g stroke="#c9eaf4" stroke-width="3" stroke-dasharray="40 30" opacity="0.5"><path d="M0 244H1200"/></g>
+  <g class="rwy" fill="#ffc857"><circle cx="40" cy="256" r="2"/><circle cx="140" cy="256" r="2"/><circle cx="240" cy="256" r="2"/><circle cx="960" cy="256" r="2"/><circle cx="1060" cy="256" r="2"/><circle cx="1160" cy="256" r="2"/></g>
+  <text x="60" y="222" font-family="ui-monospace,Menlo,monospace" font-size="20" font-weight="700" fill="#c9eaf4" opacity="0.6">09</text>
+  <text x="1140" y="222" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="20" font-weight="700" fill="#c9eaf4" opacity="0.6">27</text>
+
+  <!-- aircraft -->
+  <g class="plane">
+    <use href="#plane" x="-120" y="-60" width="240" height="120"/>
+    <circle class="beacon" cx="-60" cy="-33" r="3" fill="#ff5c5c"/>
+  </g>
+
+  <text x="600" y="34" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="11" letter-spacing="3" fill="#ffc857">DEP 09  ·  CRUISE FL350  ·  ARR 27</text>
+</svg>

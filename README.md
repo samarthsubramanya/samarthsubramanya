@@ -37,20 +37,10 @@ ARR  PRODUCT     ──  ambitious ideas → useful software
 | [**SnipURL**](https://github.com/samarthsubramanya/SnipURL) | Lightweight serverless URL shortener | Python · AWS Lambda |
 | [**Portfolio**](https://samarthagasthya.vercel.app/) | Personal portfolio and project showcase | TypeScript |
 
-## 🕹️ Pixel Cockpit — Fly the README
-
-Everyone visiting shares one aircraft. Pick a control, submit the pre-filled issue, and a GitHub Action moves the plane one column and redraws the board. Thread the gaps in the walls. Hit one and the flight restarts, but your score goes on the board if it's the best.
+## 🛬 Flight Ops
 
 <div align="center">
-
-<img src="./game/board.svg" alt="Pixel Flight game board" width="512">
-
-[![Climb](https://img.shields.io/badge/⬆_Climb-59d9ff?style=for-the-badge)](https://github.com/samarthsubramanya/samarthsubramanya/issues/new?title=fly%3A+up&body=Just+press+Submit+to+climb.)
-[![Hold](https://img.shields.io/badge/➡_Hold-ffc857?style=for-the-badge)](https://github.com/samarthsubramanya/samarthsubramanya/issues/new?title=fly%3A+hold&body=Just+press+Submit+to+hold+altitude.)
-[![Descend](https://img.shields.io/badge/⬇_Descend-59d9ff?style=for-the-badge)](https://github.com/samarthsubramanya/samarthsubramanya/issues/new?title=fly%3A+down&body=Just+press+Submit+to+descend.)
-
-<sub>The board updates about a minute after the issue is submitted. Refresh to see the new position.</sub>
-
+  <img src="./profile/flight.svg" alt="Animated airliner taking off, cruising, and landing" width="100%">
 </div>
 
 ## 🧰 Aircraft Systems
