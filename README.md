@@ -74,8 +74,9 @@ ARR  PRODUCT     ──  ambitious ideas → useful software
 ## 📊 Flight Data Recorder
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=samarthsubramanya&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b2942&title_color=ffc857&icon_color=59d9ff&text_color=c9eaf4" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samarthsubramanya&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b2942&title_color=ffc857&text_color=c9eaf4" alt="Top languages" height="165">
+  <img src="https://streak-stats.demolab.com?user=samarthsubramanya&theme=tokyonight&hide_border=true&background=0b2942&ring=ffc857&fire=ffc857&currStreakLabel=59d9ff&sideLabels=c9eaf4&currStreakNum=ffffff&sideNums=ffffff&dates=8edfff" alt="Contribution streak" height="165">
+  <br><br>
+  <img src="https://ghchart.rshah.org/59d9ff/samarthsubramanya" alt="Contribution graph" width="100%">
 </div>
 
 ## 📡 Comms
